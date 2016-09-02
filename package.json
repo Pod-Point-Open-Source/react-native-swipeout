@@ -1,6 +1,6 @@
 {
   "name": "@pod-point-open-source/react-native-swipeout",
-  "version": "2.0.12",
+  "version": "3.0.0",
   "description": "iOS-style swipeout buttons behind component",
   "main": "lib/index.js",
   "scripts": {
