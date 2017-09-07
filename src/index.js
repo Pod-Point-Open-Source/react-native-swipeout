@@ -1,9 +1,10 @@
 import React from 'react';
 import { PanResponder, TouchableHighlight, StyleSheet, Text, View } from 'react-native';
 import tweenState from 'react-tween-state';
+import createReactClass from 'create-react-class';
 import styles from './styles.js';
 
-var SwipeoutBtn = React.createClass({
+var SwipeoutBtn = createReactClass({
   getDefaultProps: function() {
     return {
       backgroundColor: null,
@@ -66,7 +67,7 @@ var SwipeoutBtn = React.createClass({
   }
 })
 
-var Swipeout = React.createClass({
+var Swipeout = createReactClass({
   mixins: [tweenState.Mixin]
 , getDefaultProps: function() {
     return {
